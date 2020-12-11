@@ -1,0 +1,22 @@
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "username": "giga",
+  "password": "giga"
+}
+
+###
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "giga",
+  "password": "giga"
+}
+
+###
+GET http://localhost:8080/hello
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnaWdhIiwiZXhwIjoxNjA3NzAyNTk5LCJpYXQiOjE2MDc2ODQ1OTl9.X5qjaylchobthUFfdccU4A850gYtEkGP5zp-iUjFDxkFQhuf7pj8KFWvhgjiELrs9SgW_eqXEQDEq80UJv-zlQ
+###
